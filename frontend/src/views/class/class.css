@@ -1,0 +1,28 @@
+.Class_wrapper{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.Class_wrapper h3{
+    color: green;
+}
+.Class_wrapper label {
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.Class_wrapper select  {
+    border: 1px solid goldenrod;
+    width: 30%;
+     height: 30px;
+}
+.Class_wrapper input {
+    width: 30%;
+  height: 40px;
+  padding-left: 10px;
+  border: 1px solid goldenrod;
+}

@@ -1,0 +1,53 @@
+.findStd_wrapper{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.findStd_wrapper h3{
+    color: blue;
+}
+
+.findStd_wrapper input {
+    width: 30%;
+  height: 40px;
+  padding-left: 10px;
+  border: 1px solid goldenrod;
+}
+.findStd_wrapper label {
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.findStd_wrapper select  {
+    border: 1px solid goldenrod;
+    width: 30%;
+     height: 30px;
+}
+.item_w{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: bisque;
+}
+.btn_Wrap{
+    display: flex;
+    gap: 10px;
+}
+.update{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.update h3{
+    color: red;
+}
+.updateWrap{
+    display: flex;
+    gap: 10px;
+}

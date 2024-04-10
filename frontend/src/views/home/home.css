@@ -1,0 +1,40 @@
+.home{
+
+}
+.wrapper{
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.wrapper h3{
+    color: green;
+}
+.wrapper input {
+    width: 30%;
+  height: 40px;
+  padding-left: 10px;
+  border: 1px solid goldenrod;
+}
+
+.btn{
+    width: 25%;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(31, 24, 73);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    padding: 10px;
+    
+}
+.btn:hover{
+    color: gold;
+    
+}
